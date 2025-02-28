@@ -27,6 +27,8 @@ body{
     background-color: black;
     color:white;
     overflow: hidden;
+    margin-right: -5px;
+    margin-left: 5px;
 }
 
 nav{
@@ -49,7 +51,7 @@ body.home{
 }
 #contact{
     height:5vh;
-    padding: 0.75vh 1.5vw;
+    padding: 0.75vh 0.5vw;
     border: 1px solid whitesmoke;
     border-radius: 20px;
 }
