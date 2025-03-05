@@ -116,3 +116,38 @@ input[type="submit"]:hover,
 input[type="reset"]:hover {
     background-color: #0056b3; /* Màu xanh đậm hơn */
 }
+.contact-row {
+  display: flex;
+  justify-content: center;
+  gap: 50px; /* Khoảng cách giữa Facebook và Instagram */
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-item img {
+  height: 250px;
+  display: block;
+  margin-bottom: 10px; /* Khoảng cách giữa ảnh và chữ */
+  border: 4px solid white;
+  border-radius: 10px;;
+}
+
+.contact-text {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Căn giữa GitHub riêng */
+.github {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
