@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: content-box;
 }
+
 a:link {
     text-decoration: none;
     color:white;
@@ -22,6 +23,7 @@ a:link {
     text-decoration: underline;
     color:blue;
   }
+
 body{
   background-color: black;
   color:azure;
@@ -29,6 +31,7 @@ body{
   overflow: hidden;
   font-size: 25px;
 }
+
 .ind{
   position: relative;
   display: flex;
@@ -37,6 +40,7 @@ body{
   width: 100vw;
   height: 100vh;
 }
+
 nav{
   width: 100%;
   display: flex;
@@ -44,6 +48,7 @@ nav{
   margin-top: 10px;
   font-weight: bold;
 }
+
 .contact{
   height: 5vh;
   padding: 0.75vh 0.5vw;
@@ -51,38 +56,46 @@ nav{
   border-radius: 20px;
   transition: 0.3 ease;
 }
+
 .contact:hover{
   background-color: white;
   color:red;
 }
+
 .sub{
   display:flex;
   justify-content: flex-end;
   font-size: 1.5vw;
   font-weight: 400;
 }
+
 .sub p{
   width:45vw;
   margin-top: 3vh;
 }
+
 .hero{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 12.5vw;
   line-height: 1;
 }
+
 footer{
   font-weight: bold;
 }
+
 .next{
   position: absolute;
   bottom: 2vh;
   right: 3vh;
 }
+
 .back{
   position: absolute;
   bottom:2vh;
   left: 3vh;
 }
+
 input[type="text"], 
 input[type="email"], 
 input[type="date"], 
@@ -90,14 +103,17 @@ input[type="time"]{
     font-size: 18px; 
     padding: 8px;    
 }
+
 td:first-child{
   padding-right: 30px;
 }
+
 .form{
   display: flex;
   justify-content: center; /* Căn giữa theo chiều ngang */
   align-items: center; /* Căn giữa theo chiều dọc */
 }
+
 input[type="submit"],
 input[type="reset"] {
     font-size: 18px; /* Tăng kích thước chữ */
@@ -116,6 +132,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover {
     background-color: #0056b3; /* Màu xanh đậm hơn */
 }
+
 .contact-row {
   display: flex;
   justify-content: center;
