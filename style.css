@@ -83,3 +83,36 @@ footer{
   bottom:2vh;
   left: 3vh;
 }
+input[type="text"], 
+input[type="email"], 
+input[type="date"], 
+input[type="time"]{
+    font-size: 18px; 
+    padding: 8px;    
+}
+td:first-child{
+  padding-right: 30px;
+}
+.form{
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+input[type="submit"],
+input[type="reset"] {
+    font-size: 18px; /* Tăng kích thước chữ */
+    padding: 10px 20px; /* Tăng khoảng cách bên trong */
+    width: 150px; /* Điều chỉnh độ rộng */
+    background-color: #007bff; /* Màu nền xanh */
+    color: white; /* Màu chữ trắng */
+    border: none; /* Xóa viền */
+    border-radius: 5px; /* Bo góc nhẹ */
+    cursor: pointer; /* Hiệu ứng chuột */
+    transition: background-color 0.3s; /* Hiệu ứng màu nền */
+}
+
+/* Khi di chuột vào */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3; /* Màu xanh đậm hơn */
+}
